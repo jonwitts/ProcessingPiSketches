@@ -16,7 +16,7 @@ void setup() {
 void draw() {
   // sense the input pin
   if (GPIO.digitalRead(buttonPin) == GPIO.LOW) {
-    fill(255);
+    fill(0,255,0);
   } else {
     fill(204,0,0);
   }
